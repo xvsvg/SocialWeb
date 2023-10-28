@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>Application.Mapping</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Domain\Domain.Core\Domain.Core.csproj"/>
+        <ProjectReference Include="..\Contracts\Contracts.csproj"/>
+    </ItemGroup>
+</Project>
